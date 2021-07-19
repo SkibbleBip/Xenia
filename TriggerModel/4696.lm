@@ -1,0 +1,42 @@
+Language model created by QuickLM on Wed Jun  6 21:35:01 EDT 2018
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 9 sentences and 5 words
+
+\data\
+ngram 1=5
+ngram 2=8
+ngram 3=6
+
+\1-grams:
+-0.9379 </s> -0.3010
+-0.9379 <s> -0.1648
+-1.0470 EXCUSE -0.2013
+-1.0470 ME -0.2013
+-1.0470 XENIA -0.2478
+
+\2-grams:
+-0.4102 <s> EXCUSE 0.0000
+-1.2553 <s> ME -0.2688
+-1.2553 <s> XENIA 0.0000
+-1.1461 EXCUSE </s> -0.3010
+-0.3680 EXCUSE ME -0.0580
+-1.1461 ME </s> -0.3010
+-0.3680 ME XENIA 0.0000
+-0.3010 XENIA </s> -0.3010
+
+\3-grams:
+-1.1461 <s> EXCUSE </s>
+-0.3680 <s> EXCUSE ME
+-0.3010 <s> ME </s>
+-0.3010 <s> XENIA </s>
+-0.3010 EXCUSE ME XENIA
+-0.3010 ME XENIA </s>
+
+\end\
