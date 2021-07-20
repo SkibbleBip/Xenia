@@ -19,9 +19,12 @@ obj/
 *.Po
 Xenia
 
+Makefile
+!/Makefile
+
+
 # Copied stuff from SphinxBase/.gitignore
 .DS_Store
-Makefile
 Makefile.in
 .deps
 ylwrap

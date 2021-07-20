@@ -46,10 +46,12 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename=".gitignore" />
 		<Unit filename="Commands.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Commands.h" />
+		<Unit filename="Makefile" />
 		<Unit filename="Parse.c">
 			<Option compilerVar="CC" />
 		</Unit>
